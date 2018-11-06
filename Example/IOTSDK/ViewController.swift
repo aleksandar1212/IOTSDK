@@ -7,14 +7,24 @@
 //
 
 import UIKit
+import IOTSDK
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        
+        
     }
 
+    @IBAction func nextButtonTapped(_ sender: Any)
+    {
+        let controller = DeviceViewController("DeviceViewController")
+//        let controller = DeviceViewController("DeviceViewController")
+        self.present(controller, animated: false, completion: nil)
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

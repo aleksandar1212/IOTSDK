@@ -1,0 +1,30 @@
+{
+  "name": "IOTSDK",
+  "version": "0.1.0",
+  "summary": "A short description of IOTSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/aleksandar1212/IOTSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "aleksandar1212": "aleksandar.jovanov12@hotmail.com"
+  },
+  "source": {
+    "git": "https://github.com/aleksandar1212/IOTSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "IOTSDK/Classes/**/*",
+  "dependencies": {
+    "GoogleMaps": [
+      "~> 2.7"
+    ],
+    "GooglePlaces": [
+      "~> 2.7"
+    ]
+  }
+}

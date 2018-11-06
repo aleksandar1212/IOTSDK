@@ -1,0 +1,6 @@
+framework module IOTSDK {
+  umbrella header "IOTSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
